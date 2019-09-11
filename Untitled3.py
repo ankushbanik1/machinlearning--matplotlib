@@ -15,7 +15,7 @@ plt.ylabel('y')
 
 plt.title('scatter-graph')
 plt.legend()
-plt.show
+plt.show()
 
 
 # In[ ]:

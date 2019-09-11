@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[5]:
 
 
 import matplotlib.pyplot as plt
@@ -12,21 +8,13 @@ range=(0,100)
 
 
 bins=10
-plt.hist(ages,bins ,range,color='green',histtype='bar',rwidth=0.8)
+plt.hist(ages,bins ,range,color='green',histtype='bar',rwidth=0.6)
 plt.xlabel('ages')
 plt.ylabel('bins')
 plt.title('Histrogram plot')
 
 plt.show()
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
